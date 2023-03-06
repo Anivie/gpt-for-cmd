@@ -30,7 +30,7 @@ if __name__ == '__main__':
                 os.system('cls')
                 continue
             if question == '_export':
-                with open("C:/Users/anivi/OneDrive/桌面/gpt_export.txt", "w") as f:
+                with open(os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop') + "gpt_export.txt", "w") as f:
                     json.dump(my_msg, f, ensure_ascii=False, indent=4)
                 continue
             print("No command found.")
