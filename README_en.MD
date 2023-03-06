@@ -29,6 +29,7 @@ All command will start with _ character, now we have stop, clear, export command
 | stop    | exit gpt                        |
 | clear   | clear context                   |
 | export  | export your dialogue to desktop |
+
 For example：_stop will exit
 
  ### Note: For save your account quota, please use `_clear` on the end of any topic to clear context, because we need send everything you chat with to tell chatgpt the topic context.
